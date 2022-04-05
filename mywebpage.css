@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e1e6ed;
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    font-size: 15px;
+}
+
+.container {
+    margin: 2rem;
+    background-color: white;
+    width: auto;
+    height: 205rem;
+    box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.16)
+}
+
+/* left side bar */
+.leftsidebar {
+    float: left;
+    width: 16%;
+    background-color: #e9d0b0;
+    height: 205rem;
+}
+
+.padding {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.logo {
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
+    text-align: center;
+}
+
+.logo img {
+    width: 13rem;
+}
+
+.desc {
+    color: #6c757d;
+    padding-bottom: 3rem;
+}
+
+.menu li {
+    padding-bottom: 2rem;
+    list-style: none;
+}
+
+.menu li a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.sign {
+    color: #6c757d;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+/* main */
+
+.main {
+    position: absolute;
+    float: left;
+    height: 100rem;
+    margin-left: 34rem;
+    padding-right: 14rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+header {
+    padding-right: 21rem;
+}
+
+header h1 {
+    letter-spacing: 0.1rem;
+    font-size: 2.1rem;
+}
+
+.main-desc {
+    color: #6c757d !important;
+    padding-top: 1rem;
+    line-height: 2rem;
+    letter-spacing: 0.03rem;
+    padding-bottom: 4rem;
+}
+
+/*blogs */
+.blogs {
+    float: left;
+    width: 65%;
+    height: auto;
+}
+
+.blog-title {
+    font-size: 1.5rem;
+}
+
+.blog-title-link {
+    text-decoration: none;
+    color: black;
+    transition: ease 0.3s;
+}
+
+.blog-title-link:hover {
+    color: rgb(4, 142, 177);
+}
+.blog-icon-withdesc {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 0.85rem;
+    color: #6c757d;
+    font-weight: 600;
+}
+.exp{
+    padding-right: 2.2rem;
+}
+.icon-link{
+    text-decoration: none;
+    color: #6c757d;
+    transition: ease 0.3s;
+}
+.icon-link:hover{
+    color: rgb(4, 142, 177);
+}
+.image-1{
+    padding-bottom: 1.5rem;
+}
+.image{
+    width: 47rem;
+    border-radius: 0.5rem;
+    transition: linear 0.3s;
+
+}
+.image:hover{
+    opacity: 0.7;
+}
+.blog1exp{
+    width: 46rem;
+    line-height: 2rem;
+    font-weight: 200;
+    padding-bottom: 1.5rem;
+}
+
+.readmorebtn-link{
+    text-decoration: none;
+    color: #0db3e3;
+    border: 0.1rem solid #0db3e3;
+    padding: 0.7rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    transition: ease 0.3s;
+}
+.readmorebtn-link:hover{
+    color: white;
+    background-color: #0db3e3;
+}
+.icon{
+    font-size: 0.7rem;
+}
+.line{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 47rem;
+    height: 0.05rem;
+    background-color: rgb(194, 194, 194);   
+}
+.pages{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.page{
+    padding-top: 0.8rem;
+    padding-right: 1rem;
+    padding-bottom: 0.8rem;
+    padding-left: 1rem;
+    border: 1px solid rgb(194, 194, 194);
+    font-size: 1rem;
+    border-radius: 0.2rem;
+}
+.page:hover{
+    background-color: grey;
+    color: white;
+}
+.texs{
+    font-size: 0.9rem;
+}
+.active{
+    background-color: grey;
+    color: white;
+}
+.pageslink{
+    text-decoration: none;
+    color: grey;
+}
+
+/* main - rightside bar */
+.main-rightside {
+    margin-left: 3rem;
+    float: left;
+    height: auto;
+}
+.form-control{
+    padding-top: 1rem;
+    padding-left: 1.3rem;
+    padding-bottom: 1rem;
+    padding-right: 7rem;
+}
+.search-btn{
+    background-color: white;
+    padding-top: 0.6rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+.about{
+    padding-top: 2.5rem;
+}
+.about-title{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+}
+.line2{
+    width: 5rem;
+    height: 0.05rem;
+    background-color: rgb(85, 171, 252);
+    margin-top: 1.5rem;
+}
+.imageabout{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.about-image{
+    margin-top: 2rem;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%!important;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.aboutme{
+    text-align: center;
+    width: 23rem;
+    height: auto;
+    line-height: 2rem;
+    color: rgb(92, 92, 92);
+}
+.social{
+    padding-top: 2rem;
+}
+.social-icons{
+    padding-top: 1.5rem;
+    font-size: 2rem;
+}
+.social-icon{
+    padding-right: 1.5rem;
+}
+.categories{
+    padding-top: 5rem;
+}
+
+.cate-li{
+    padding-top: 1.5rem;
+    list-style: none;
+}
+.cate-li a{
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+}
+.popularposts{
+    padding-top: 5rem;
+}
+
+.blog43{
+    padding-top: 2rem;
+}
+.popular-link{
+    margin-top: 2rem;
+}
+.popular-image{
+    float: left;
+    width: 5rem;
+}
+.popular-link2{
+    font-size: 1rem;
+    float: left;
+    padding-left: 1.5rem;
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    transition: ease 0.3s;
+}
+.popular-link2:hover{
+    color: rgb(85, 171, 252);
+}
+.popular-date{
+    float: left;
+    padding-top: 2rem;
+    font-size: 0.7rem;
+    color: rgb(112, 112, 112);
+}
+.line3{
+    width: 23rem;
+    height: 0.03rem;
+    background-color: rgb(122, 122, 122);
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width:700px){
+    html{
+        font-size: 10px;
+    }
+    .leftsidebar{
+        width: 100%;
+        height: 45rem;
+        display: block;
+        text-align: center;
+    }
+    .main{
+        display: block;
+        text-align: center;
+        height: 300rem;
+        margin-top: 50rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-bottom: 5rem;
+        padding-right: 0;
+    }
+    .blogs {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    header{
+        text-align: center;
+        padding-right: 0;
+    }
+    .container{
+        height: 350rem;
+    }
+    .main-rightside {
+        width: 100%;
+        display: block;
+        height: auto;
+        text-align: center;
+        margin-left: 0;
+    }
+    .line2{
+        text-align: center;
+        margin-left: 21rem;
+    }
+    
+    .aboutme{
+        margin-left: 12rem;
+        width: 50%;
+    }
+    .blog43{
+        margin-left: 12rem;
+    }
+    
+}
+
+
